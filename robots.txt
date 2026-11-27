@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jomo-play.github.io/sitemap.xml

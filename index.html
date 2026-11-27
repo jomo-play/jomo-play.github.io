@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jomo-play</title>
+<meta name="description" content="公的な統計や公式の確率で遊べる、小さなWebサイト集。数字はすべて出典つき。入力した値はどこにも送信しません。">
+<link rel="canonical" href="https://jomo-play.github.io/">
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--text:#1d1d1f;--muted:#5f6368;--line:#e2e2de;--accent:#2a6fdb;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--card:#1c1c20;--text:#ececef;--muted:#a1a1aa;--line:#2e2e34;--accent:#7aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.6}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:2rem;margin:0 0 4px;letter-spacing:.02em}
+.lead{margin:0 0 24px;color:var(--muted)}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+@media (min-width:600px){ul{grid-template-columns:1fr 1fr}}
+a.card{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;color:inherit;text-decoration:none}
+a.card:hover,a.card:focus-visible{border-color:var(--accent)}
+.card h2{font-size:1.1rem;margin:0 0 4px;color:var(--accent)}
+.card p{margin:0;font-size:.92rem;color:var(--muted)}
+.note{margin:24px 0 0;font-size:.9rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>jomo-play</h1>
+<p class="lead">公的な統計や公式の確率で遊べる、小さなWebサイト集</p>
+<ul>
+<li><a class="card" href="https://jomo-play.github.io/luck-simulator/"><h2>当たるまで回す機</h2><p>宝くじやガチャを公式の確率どおりに回し続けたら？ お金を使わずに確率の現実を体感。</p></a></li>
+<li><a class="card" href="https://jomo-play.github.io/world-per-second/"><h2>世界の1秒カウンター</h2><p>開いてから世界で生まれた人・光った雷・切られた木などを、年間統計の秒割りで数えます。</p></a></li>
+<li><a class="card" href="https://jomo-play.github.io/take-home-survival/"><h2>手取りサバイバル</h2><p>日本の手取りで30日を乗り切る、3分の家計サバイバルゲーム。</p></a></li>
+<li><a class="card" href="https://jomo-play.github.io/japan-rank/"><h2>あなたは日本で何番目？</h2><p>身長・睡眠時間・年収などを入れると、公的統計から「上位○%」がわかります。</p></a></li>
+<li><a class="card" href="https://jomo-play.github.io/animal-life/"><h2>いのちのサイコロ</h2><p>どの生き物に生まれるかはランダム。生きのびる確率は本物の調査データの、動物の一生シミュレーション。</p></a></li>
+<li><a class="card" href="https://jomo-play.github.io/kyoto-quiz/"><h2>京言葉クイズ</h2><p>「ぶぶ漬けでもどうどす?」の本音は? 京都人のやんわり言葉を読み解く、9万通りの対話クイズ。</p></a></li>
+</ul>
+<p class="note">数字はすべて出典つき。入力した値はどこにも送信しません。</p>
+</main>
+<script data-goatcounter="https://jomo-play.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
